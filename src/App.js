@@ -25,6 +25,18 @@ class App extends Component {
     super()
     this.title = props.title
     this.message = props.message
+
+    this.state = {
+      msg:'Hello Component!',
+      count:0,
+    }
+
+    let timer = setInterval(()=>{
+      this.setState({
+        count: this.state.count + 1,
+        msg: "[ count: " + this.state.count + " ]"
+      })
+    }, 1000)
   }
 
   render() {
@@ -35,6 +47,7 @@ class App extends Component {
         <div>
           <p>{this.title}</p>
           <p>{this.message}</p>
+          <p>{this.state.msg}</p>
           <Button />
         </div>
       </div>
