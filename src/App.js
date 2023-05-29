@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contents from './pages/Contents';
 import Button from './components/Button'
 import { Component } from 'react';
+import StateSample from './pages/StateSample';
 
 // function App() {
 //   return (
@@ -56,6 +57,7 @@ class App extends Component {
           <Route path={`/`} element={<Home />} />
           <Route path={`/about`} element={<About />} />
           <Route path={`/contents`} element={<Contents />} />
+          <Route path={`/state-sample`} element={<StateSample />} />
         </Routes>
       </BrowserRouter>
       </>
