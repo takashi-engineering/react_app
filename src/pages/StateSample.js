@@ -29,7 +29,7 @@ class StateSample extends Component {
                     {this.state.flg ?
                         <p>{this.state.msg}:true</p>
                     :
-                        <p>{this.state.msg}:false</p>
+                        <p>{this.state.msg}:false test</p>
                     }
                         <button className="bg-green-700 font-semibold text-white py-2 px-4 rounded hover:bg-green-500" onClick={this.doAction}>Click</button>
                     </div>
