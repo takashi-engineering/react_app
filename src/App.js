@@ -7,6 +7,7 @@ import Contents from './pages/Contents';
 import Button from './components/Button'
 import { Component } from 'react';
 import StateSample from './pages/StateSample';
+import StateSample2 from './pages/StateSample2';
 
 // function App() {
 //   return (
@@ -22,28 +23,28 @@ import StateSample from './pages/StateSample';
 
 class App extends Component {
 
-  constructor(props) {
-    super()
-    this.title = props.title
-    this.message = props.message
+  // constructor(props) {
+  //   super()
+  //   this.title = props.title
+  //   this.message = props.message
 
-    this.state = {
-      msg:'Hello Component!',
-      count:0,
-    }
+  //   this.state = {
+  //     msg:'Hello Component!',
+  //     count:0,
+  //   }
 
-    let timer = setInterval(()=>{
-      this.setState({
-        count: this.state.count + 1,
-        msg: "[ count: " + this.state.count + " ]"
-      })
-    }, 1000)
-  }
+  //   let timer = setInterval(()=>{
+  //     this.setState({
+  //       count: this.state.count + 1,
+  //       msg: "[ count: " + this.state.count + " ]"
+  //     })
+  //   }, 1000)
+  // }
 
   render() {
     return (
       <>
-      <div className='container mx-auto px-8'>
+      {/* <div className='container mx-auto px-8'>
         <h1 className='text-3xl font-bold text-center bg-lime-300'>React</h1>
         <div>
           <p>{this.title}</p>
@@ -51,13 +52,14 @@ class App extends Component {
           <p>{this.state.msg}</p>
           <Button />
         </div>
-      </div>
+      </div> */}
       <BrowserRouter>
         <Routes>
           <Route path={`/`} element={<Home />} />
           <Route path={`/about`} element={<About />} />
           <Route path={`/contents`} element={<Contents />} />
           <Route path={`/state-sample`} element={<StateSample />} />
+          <Route path={`/state-sample2`} element={<StateSample2 />} />
         </Routes>
       </BrowserRouter>
       </>
