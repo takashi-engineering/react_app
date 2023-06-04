@@ -22,6 +22,9 @@ function Home() {
       <div className="text-center">
         <Link to={'/message-sample'}>MessageSampleページを開く</Link>
       </div>
+      <div className="text-center">
+        <Link to={'/form-sample'}>FormSampleページを開く</Link>
+      </div>
     </>
   );
 }
