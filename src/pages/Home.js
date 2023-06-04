@@ -16,6 +16,9 @@ function Home() {
       <div className="text-blue-500 hover:underline text-center my-1.5">
         <Link to={'/state-sample2'}>StateSample2ページを開く</Link>
       </div>
+      <div className="text-center">
+        <Link to={'/list-sample'}>ListSampleページを開く</Link>
+      </div>
     </>
   );
 }
