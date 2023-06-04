@@ -9,6 +9,7 @@ import { Component } from 'react';
 import StateSample from './pages/StateSample';
 import StateSample2 from './pages/StateSample2';
 import ListSample from './pages/ListSample';
+import MessageSample from './pages/MessageSample';
 
 // function App() {
 //   return (
@@ -62,6 +63,7 @@ class App extends Component {
           <Route path={`/state-sample`} element={<StateSample />} />
           <Route path={`/state-sample2`} element={<StateSample2 />} />
           <Route path={`/list-sample`} element={<ListSample />} />
+          <Route path={`/message-sample`} element={<MessageSample />} />
         </Routes>
       </BrowserRouter>
       </>
