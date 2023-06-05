@@ -12,6 +12,7 @@ import ListSample from './pages/ListSample';
 import MessageSample from './pages/MessageSample';
 import FormSample from './pages/FormSample';
 import ContextSample from './pages/ContextSample';
+import ProviderSample from './pages/ProviderSample';
 
 // function App() {
 //   return (
@@ -68,6 +69,7 @@ class App extends Component {
           <Route path={`/message-sample`} element={<MessageSample />} />
           <Route path={`/form-sample`} element={<FormSample />} />
           <Route path={`/context-sample`} element={<ContextSample />} />
+          <Route path={`/provider-sample`} element={<ProviderSample />}/>
         </Routes>
       </BrowserRouter>
       </>
