@@ -31,6 +31,9 @@ function Home() {
       <div className="text-center">
         <Link to={'provider-sample'}>ProviderSampleページを開く</Link>
       </div>
+      <div className="text-center">
+        <Link to={'theme-sample'}>ThemeSampleページを開く</Link>
+      </div>
     </>
   );
 }
