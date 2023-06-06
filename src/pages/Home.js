@@ -39,6 +39,9 @@ function Home() {
       <div className="text-center">
         <Link to={`hook-sample`}>HookSampleページを開く</Link>
       </div>
+      <div className="text-center">
+        <Link to={`hook-count-sample`}>HookCountSampleページを開く</Link>
+      </div>
     </>
   );
 }
