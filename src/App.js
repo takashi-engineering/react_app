@@ -16,6 +16,7 @@ import ProviderSample from './pages/ProviderSample';
 import ThemeSample from './pages/ThemeSample';
 import HookSample from './pages/hooks/HookSample';
 import HookCountSample from './pages/hooks/HookCountSample';
+import HookTwoStateSample from './pages/hooks/HookTwoStateSample';
 
 // function App() {
 //   return (
@@ -76,6 +77,7 @@ class App extends Component {
           <Route path={`/theme-sample`} element={<ThemeSample />} />
           <Route path={`/hook-sample`} element={<HookSample />} />
           <Route path={`/hook-count-sample`} element={<HookCountSample />} />
+          <Route path={`/hook-two-state-sample`} element={<HookTwoStateSample />} />
         </Routes>
       </BrowserRouter>
       </>
