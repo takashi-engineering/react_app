@@ -34,6 +34,11 @@ function Home() {
       <div className="text-center">
         <Link to={'theme-sample'}>ThemeSampleページを開く</Link>
       </div>
+      <hr />
+      <div className="text-center">ここからHooksのサンプル</div>
+      <div className="text-center">
+        <Link to={`hook-sample`}>HookSampleページを開く</Link>
+      </div>
     </>
   );
 }

@@ -14,6 +14,7 @@ import FormSample from './pages/FormSample';
 import ContextSample from './pages/ContextSample';
 import ProviderSample from './pages/ProviderSample';
 import ThemeSample from './pages/ThemeSample';
+import HookSample from './pages/hooks/HookSample';
 
 // function App() {
 //   return (
@@ -72,6 +73,7 @@ class App extends Component {
           <Route path={`/context-sample`} element={<ContextSample />} />
           <Route path={`/provider-sample`} element={<ProviderSample />}/>
           <Route path={`/theme-sample`} element={<ThemeSample />} />
+          <Route path={`/hook-sample`} element={<HookSample />} />
         </Routes>
       </BrowserRouter>
       </>
