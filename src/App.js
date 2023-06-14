@@ -17,6 +17,7 @@ import ThemeSample from './pages/ThemeSample';
 import HookSample from './pages/hooks/HookSample';
 import HookCountSample from './pages/hooks/HookCountSample';
 import HookTwoStateSample from './pages/hooks/HookTwoStateSample';
+import HookSample2 from './pages/hooks/HookSample2';
 
 // function App() {
 //   return (
@@ -78,6 +79,7 @@ class App extends Component {
           <Route path={`/hook-sample`} element={<HookSample />} />
           <Route path={`/hook-count-sample`} element={<HookCountSample />} />
           <Route path={`/hook-two-state-sample`} element={<HookTwoStateSample />} />
+          <Route path={`/hook-sample2`} element={<HookSample2 />} />
         </Routes>
       </BrowserRouter>
       </>
