@@ -18,6 +18,7 @@ import HookSample from './pages/hooks/HookSample';
 import HookCountSample from './pages/hooks/HookCountSample';
 import HookTwoStateSample from './pages/hooks/HookTwoStateSample';
 import HookSample2 from './pages/hooks/HookSample2';
+import HookFormSample from './pages/hooks/HookFormSample';
 
 // function App() {
 //   return (
@@ -80,6 +81,7 @@ class App extends Component {
           <Route path={`/hook-count-sample`} element={<HookCountSample />} />
           <Route path={`/hook-two-state-sample`} element={<HookTwoStateSample />} />
           <Route path={`/hook-sample2`} element={<HookSample2 />} />
+          <Route path={`/hook-form-sample`} element={<HookFormSample />} />
         </Routes>
       </BrowserRouter>
       </>
