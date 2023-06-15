@@ -20,6 +20,7 @@ import HookTwoStateSample from './pages/hooks/HookTwoStateSample';
 import HookSample2 from './pages/hooks/HookSample2';
 import HookFormSample from './pages/hooks/HookFormSample';
 import UseEffectSample from './pages/hooks/UseEffectSample';
+import UseEffectSample2 from './pages/hooks/UseEffectSample2';
 
 // function App() {
 //   return (
@@ -84,6 +85,7 @@ class App extends Component {
           <Route path={`/hook-sample2`} element={<HookSample2 />} />
           <Route path={`/hook-form-sample`} element={<HookFormSample />} />
           <Route path={`/use-effect-sample`} element={<UseEffectSample />} />
+          <Route path={`/use-effect-sample2`} element={<UseEffectSample2 />} />
         </Routes>
       </BrowserRouter>
       </>

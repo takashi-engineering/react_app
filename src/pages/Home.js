@@ -54,6 +54,9 @@ function Home() {
       <div className="text-center">
         <Link to={`use-effect-sample`}>UseEffectSampleページを開く</Link>
       </div>
+      <div className="text-center">
+        <Link to={`use-effect-sample2`}>UseEffectSample2ページを開く</Link>
+      </div>
     </>
   );
 }
