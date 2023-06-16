@@ -23,6 +23,7 @@ import UseEffectSample from './pages/hooks/UseEffectSample';
 import UseEffectSample2 from './pages/hooks/UseEffectSample2';
 import OriginalHookSample from './pages/hooks/OriginalHookSample';
 import OriginalHookSample2 from './pages/hooks/OriginalHookSample2';
+import OriginalHookSample3 from './pages/hooks/OriginalHookSample3';
 
 // function App() {
 //   return (
@@ -90,6 +91,7 @@ class App extends Component {
           <Route path={`/use-effect-sample2`} element={<UseEffectSample2 />} />
           <Route path={`/original-hook-sample`} element={<OriginalHookSample />} />
           <Route path={`/original-hook-sample2`} element={<OriginalHookSample2 />} />
+          <Route path={`/original-hook-sample3`} element={<OriginalHookSample3 />} />
         </Routes>
       </BrowserRouter>
       </>
