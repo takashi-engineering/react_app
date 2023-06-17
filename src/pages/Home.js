@@ -66,6 +66,9 @@ function Home() {
       <div className="text-center">
         <Link to={`original-hook-sample3`}>OriginalHookSample3ページを開く</Link>
       </div>
+      <div className="text-center">
+        <Link to={`local-storage-sample`}>LocalStorageSampleページを開く</Link>
+      </div>
     </>
   );
 }
