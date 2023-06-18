@@ -25,6 +25,7 @@ import OriginalHookSample from './pages/hooks/OriginalHookSample';
 import OriginalHookSample2 from './pages/hooks/OriginalHookSample2';
 import OriginalHookSample3 from './pages/hooks/OriginalHookSample3';
 import LocalStorageSample from './pages/hooks/LocalStorageSample';
+import MemoFrame from './pages/memo/MemoFrame';
 
 // function App() {
 //   return (
@@ -94,6 +95,7 @@ class App extends Component {
           <Route path={`/original-hook-sample2`} element={<OriginalHookSample2 />} />
           <Route path={`/original-hook-sample3`} element={<OriginalHookSample3 />} />
           <Route path={`/local-storage-sample`} element={<LocalStorageSample />} />
+          <Route path={`/memo`} element={<MemoFrame />} />
         </Routes>
       </BrowserRouter>
       </>
